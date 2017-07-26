@@ -1,9 +1,10 @@
-
 package lab4;
 import java.util.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.* ;
+import java.math.*;
 
 public class Lab4 {
 
@@ -25,7 +26,7 @@ public class Lab4 {
                 //registration process
             }
             else if(m==2){
-                //menu
+                Database reservations = new Database();
             }
             else{
                 System.out.println("Please select a valid option.");
